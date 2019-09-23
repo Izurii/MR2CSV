@@ -34,9 +34,9 @@
             this.dbPath = new System.Windows.Forms.OpenFileDialog();
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -78,29 +78,18 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.checkBox1.Location = new System.Drawing.Point(304, 60);
+            this.checkBox1.Location = new System.Drawing.Point(158, 57);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(154, 28);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Author\'s name";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.checkBox2.Location = new System.Drawing.Point(12, 60);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(176, 28);
-            this.checkBox2.TabIndex = 4;
-            this.checkBox2.Text = "Last chapter read";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(162, 104);
+            this.label1.Location = new System.Drawing.Point(7, 104);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 26);
             this.label1.TabIndex = 5;
@@ -117,6 +106,17 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.button4.Location = new System.Drawing.Point(330, 71);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(128, 33);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Export JSON";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // MR2CSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -124,9 +124,9 @@
             this.BackColor = System.Drawing.SystemColors.GrayText;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(606, 139);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -147,9 +147,9 @@
         private System.Windows.Forms.OpenFileDialog dbPath;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 
