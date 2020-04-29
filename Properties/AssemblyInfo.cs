@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MR2CSV")]
-[assembly: AssemblyDescription("Tool to convert MangaRock DB to a CSV File")]
+[assembly: AssemblyTitle("MRMT")]
+[assembly: AssemblyDescription("Multi Tool for Manga Rock APP")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Izurii Hootoh")]
-[assembly: AssemblyProduct("MR2CSV")]
+[assembly: AssemblyProduct("MRMT")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
